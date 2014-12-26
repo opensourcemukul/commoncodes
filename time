@@ -1,0 +1,7 @@
+import time
+tic=time.time()
+for i in range(1,100):
+    print i
+toc=time.time()
+t=toc-tic
+print t
